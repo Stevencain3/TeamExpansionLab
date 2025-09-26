@@ -22,4 +22,9 @@ The project setup followed t Final file tree:
 •	  index.Css
 •	  main.jsx
 
+The lab instructions:  
+npm create vite@latest multi-counter -- --template react
+cd multi-counter
+npm i
+npm run dev
 
