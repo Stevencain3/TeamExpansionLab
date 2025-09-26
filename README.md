@@ -15,3 +15,11 @@ For this lab, our team worked together to build a Multi-Counter Dashboard in Rea
 ## File Setup  
 The project setup followed t Final file tree:  
 
+•	src/
+•	 App.jsx
+•	  index.css
+•	  AddCounterDisplay.jsx
+•	  index.Css
+•	  main.jsx
+
+
