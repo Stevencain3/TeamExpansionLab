@@ -23,11 +23,11 @@ We started with the code from our individual lab and expanded it into a group pr
 ## Final project structure:
 
 src/
-├── main.jsx
-├── App.jsx
-├── index.css
-└── components/
-    ├── AddCounterForm.jsx
-    ├── CounterCard.jsx
+-> main.jsx
+ ->App.jsx
+-> index.css
+-> components/
+   -> AddCounterForm.jsx
+->CounterCard.jsx
     ├── CounterList.jsx
     └── Header.jsx
