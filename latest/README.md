@@ -49,17 +49,17 @@ src/
 Move into the project folder:
 
 
-Copy code
+
 cd multi-counter
 Install dependencies:
 
 
-Copy code
+
 npm i
 Run the development server:
 
 
-Copy code
+
 👥 Team Task List
 
 🎥 Mason → Created a walk-through video showing all working components.
