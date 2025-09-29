@@ -13,7 +13,9 @@ The goal was to practice React concepts such as:
 - Derived UI  
 - Persistence with Local Storage  
 
----
+
+
+
 
 ## 🚀 Features (What the App Can Do)
 - ➕ Add counters with custom names  
@@ -23,7 +25,7 @@ The goal was to practice React concepts such as:
 - 📝 Show a message **“No counters yet”** when the list is empty  
 - 💾 Save counters and values even after refreshing the page  
 
----
+
 
 ## 📂 File Setup
 The final project structure:
@@ -38,26 +40,44 @@ src/
 ├── CounterList.jsx
 └── Header.jsx
 
-yaml
-Copy code
 
----
 
 ## ⚙️ How to Run the Project
 1. Create a new Vite project:  
-   ```bash
+ 
    npm create vite@latest multi-counter -- --template react
 Move into the project folder:
 
-bash
+
 Copy code
 cd multi-counter
 Install dependencies:
 
-bash
+
 Copy code
 npm i
 Run the development server:
 
-bash
+
 Copy code
+👥 Team Task List
+
+🎥 Mason → Created a walk-through video showing all working components.
+
+🎬Steven→ Created a video explaining code design and challenges.
+
+📝 Rania (me) → Documented the task list and project details in this README.
+## Reflection
+
+This lab helped us practice fundamental React concepts as a team.
+We got more comfortable with:
+
+Building and reusing components
+
+Passing data with props
+
+Managing state and updating the UI when data changes
+
+Saving data with local storage
+
+Working in a group also showed us how to split tasks, collaborate effectively, and merge our work into one final project.
