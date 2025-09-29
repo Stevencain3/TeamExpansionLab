@@ -1,83 +1,52 @@
-# Lab 5.2 – Team Expansion Lab 1
+# Project Description
 
-## 📌 Project Description
-For this lab, our team worked together to build a **Multi-Counter Dashboard** in React.  
-We took the code from the previous individual lab and expanded it into a **team project**.  
+For this lab, our team worked together to build a Multi-Counter Dashboard in React.
+We started with the code from our individual lab and expanded it into a group project.
+## The purpose was to practice core React concepts, including:
 
-The goal was to practice React concepts such as:
-- Functional components  
-- Props  
-- Lifted state  
-- Lists with keys  
-- Controlled forms  
-- Derived UI  
-- Persistence with Local Storage  
+*Functional components
+*Props
+*State management (lifting state up)
+*Using lists with keys
+*Controlled forms
+*Derived UI
+*Saving data with Local Storage
+*Features
+*Our app can:
+*Add counters with custom names
+*Increment, decrement, and reset each counter
+*Delete counters
+*Show the total sum of all counters
+*Display “No counters yet” when the list is empty
+*Save counters and values even after refreshing the page
 
-
-
-
-
-## 🚀 Features (What the App Can Do)
-- ➕ Add counters with custom names  
-- 🔼 Increment, 🔽 decrement, and 🔄 reset each counter  
-- 🗑️ Delete counters  
-- ➕➕ Display the **total sum** of all counters  
-- 📝 Show a message **“No counters yet”** when the list is empty  
-- 💾 Save counters and values even after refreshing the page  
-
-
-
-## 📂 File Setup
-The final project structure:
+## Final project structure:
 
 src/
-├── main.jsx
-├── App.jsx
-├── index.css
-└── components/
-├── AddCounterForm.jsx
-├── CounterCard.jsx
-├── CounterList.jsx
-└── Header.jsx
+-> main.jsx
+ ->App.jsx
+-> index.css
+-> components/
+   -> AddCounterForm.jsx
+->CounterCard.jsx
+    ->CounterList.jsx
+    -> Header.jsx
+   ## How to Run the Project
 
+Create a new Vite project:
+npm create vite@latest multi-counter 
+cd latest
+npm run dev
+## Team Task List
 
+Mason → Made a video walk-through showing all working components
 
-## ⚙️ How to Run the Project
-1. Create a new Vite project:  
- 
-   npm create vite@latest multi-counter -- --template react
-Move into the project folder:
+Steven → Created a video explaining the code design and challenges
 
-
-
-cd multi-counter
-Install dependencies:
-
-
-
-npm i
-Run the development server:
-
-
-
-👥 Team Task List
-
-🎥 Mason → Created a walk-through video showing all working components.
-
-🎬Steven→ Created a video explaining code design and challenges.
-
-📝 Rania (me) → Documented the task list and project details in this README.
+Rania  → Wrote the documentation and project details in this README
 ## Reflection
 
-This lab helped us practice fundamental React concepts as a team.
-We got more comfortable with:
+This lab helped us review and apply important React concepts as a team.
+We practiced building and reusing components, passing data with props, managing state, and saving data with local storage.
 
-Building and reusing components
-
-Passing data with props
-
-Managing state and updating the UI when data changes
-
-Saving data with local storage
-
-Working in a group also showed us how to split tasks, collaborate effectively, and merge our work into one final project.
+Working as a group also showed us how to divide tasks, collaborate, and combine our work into one final project.
