@@ -29,5 +29,5 @@ src/
 -> components/
    -> AddCounterForm.jsx
 ->CounterCard.jsx
-    ├── CounterList.jsx
-    └── Header.jsx
+    ->CounterList.jsx
+    -> Header.jsx
