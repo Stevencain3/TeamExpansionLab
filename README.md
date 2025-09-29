@@ -1,4 +1,4 @@
-#Project Description
+# Project Description
 
 For this lab, our team worked together to build a Multi-Counter Dashboard in React.
 We started with the code from our individual lab and expanded it into a group project.
