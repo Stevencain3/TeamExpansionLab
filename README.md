@@ -31,3 +31,22 @@ src/
 ->CounterCard.jsx
     ->CounterList.jsx
     -> Header.jsx
+   ## How to Run the Project
+
+Create a new Vite project:
+npm create vite@latest multi-counter 
+cd latest
+npm run dev
+## Team Task List
+
+Mason → Made a video walk-through showing all working components
+
+Steven → Created a video explaining the code design and challenges
+
+Rania  → Wrote the documentation and project details in this README
+## Reflection
+
+This lab helped us review and apply important React concepts as a team.
+We practiced building and reusing components, passing data with props, managing state, and saving data with local storage.
+
+Working as a group also showed us how to divide tasks, collaborate, and combine our work into one final project.
